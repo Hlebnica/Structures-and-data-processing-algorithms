@@ -1,0 +1,16 @@
+F:\Structures and data processing algorithms\Lab_2\Stack\bin\Debug\net5.0\Stack.exe
+F:\Structures and data processing algorithms\Lab_2\Stack\bin\Debug\net5.0\Stack.deps.json
+F:\Structures and data processing algorithms\Lab_2\Stack\bin\Debug\net5.0\Stack.runtimeconfig.json
+F:\Structures and data processing algorithms\Lab_2\Stack\bin\Debug\net5.0\Stack.runtimeconfig.dev.json
+F:\Structures and data processing algorithms\Lab_2\Stack\bin\Debug\net5.0\Stack.dll
+F:\Structures and data processing algorithms\Lab_2\Stack\bin\Debug\net5.0\ref\Stack.dll
+F:\Structures and data processing algorithms\Lab_2\Stack\bin\Debug\net5.0\Stack.pdb
+F:\Structures and data processing algorithms\Lab_2\Stack\obj\Debug\net5.0\Stack.csproj.AssemblyReference.cache
+F:\Structures and data processing algorithms\Lab_2\Stack\obj\Debug\net5.0\Stack.GeneratedMSBuildEditorConfig.editorconfig
+F:\Structures and data processing algorithms\Lab_2\Stack\obj\Debug\net5.0\Stack.AssemblyInfoInputs.cache
+F:\Structures and data processing algorithms\Lab_2\Stack\obj\Debug\net5.0\Stack.AssemblyInfo.cs
+F:\Structures and data processing algorithms\Lab_2\Stack\obj\Debug\net5.0\Stack.csproj.CoreCompileInputs.cache
+F:\Structures and data processing algorithms\Lab_2\Stack\obj\Debug\net5.0\Stack.dll
+F:\Structures and data processing algorithms\Lab_2\Stack\obj\Debug\net5.0\ref\Stack.dll
+F:\Structures and data processing algorithms\Lab_2\Stack\obj\Debug\net5.0\Stack.pdb
+F:\Structures and data processing algorithms\Lab_2\Stack\obj\Debug\net5.0\Stack.genruntimeconfig.cache

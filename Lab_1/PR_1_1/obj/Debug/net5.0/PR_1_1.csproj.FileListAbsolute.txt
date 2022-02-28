@@ -1,0 +1,16 @@
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\bin\Debug\net5.0\PR_1_1.exe
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\bin\Debug\net5.0\PR_1_1.deps.json
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\bin\Debug\net5.0\PR_1_1.runtimeconfig.json
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\bin\Debug\net5.0\PR_1_1.runtimeconfig.dev.json
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\bin\Debug\net5.0\PR_1_1.dll
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\bin\Debug\net5.0\ref\PR_1_1.dll
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\bin\Debug\net5.0\PR_1_1.pdb
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\obj\Debug\net5.0\PR_1_1.csproj.AssemblyReference.cache
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\obj\Debug\net5.0\PR_1_1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\obj\Debug\net5.0\PR_1_1.AssemblyInfoInputs.cache
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\obj\Debug\net5.0\PR_1_1.AssemblyInfo.cs
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\obj\Debug\net5.0\PR_1_1.csproj.CoreCompileInputs.cache
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\obj\Debug\net5.0\PR_1_1.dll
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\obj\Debug\net5.0\ref\PR_1_1.dll
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\obj\Debug\net5.0\PR_1_1.pdb
+F:\Structures and data processing algorithms\Lab_1\PR_1_1\obj\Debug\net5.0\PR_1_1.genruntimeconfig.cache
