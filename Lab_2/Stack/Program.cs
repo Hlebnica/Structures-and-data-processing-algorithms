@@ -26,7 +26,7 @@ namespace Stack
             foreach (var number in numbers) // Вывод содержимого стека и подсчет суммы положительных элементов
             {
                 Console.WriteLine(number);
-                if (number > 0)
+                if (number > 0) // Если число в стеке больше нуля, то добавить его к сумме
                 {
                     sum += number;
                 }

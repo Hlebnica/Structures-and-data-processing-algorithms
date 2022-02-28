@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Structures and data processing algorithms\\Lab_1\\PR_1\\PR_1.csproj",
+      "projectUniqueName": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_1\\PR_1\\PR_1.csproj",
       "projectName": "PR_1",
-      "projectPath": "F:\\Structures and data processing algorithms\\Lab_1\\PR_1\\PR_1.csproj",
+      "projectPath": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_1\\PR_1\\PR_1.csproj",
       "packagesPath": "C:\\Users\\apple\\.nuget\\packages\\",
-      "outputPath": "F:\\Structures and data processing algorithms\\Lab_1\\PR_1\\obj\\",
+      "outputPath": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_1\\PR_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\apple\\AppData\\Roaming\\NuGet\\NuGet.Config",

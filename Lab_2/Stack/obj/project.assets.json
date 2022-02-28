@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Structures and data processing algorithms\\Lab_2\\Stack\\Stack.csproj",
+      "projectUniqueName": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_2\\Stack\\Stack.csproj",
       "projectName": "Stack",
-      "projectPath": "F:\\Structures and data processing algorithms\\Lab_2\\Stack\\Stack.csproj",
+      "projectPath": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_2\\Stack\\Stack.csproj",
       "packagesPath": "C:\\Users\\apple\\.nuget\\packages\\",
-      "outputPath": "F:\\Structures and data processing algorithms\\Lab_2\\Stack\\obj\\",
+      "outputPath": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_2\\Stack\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\apple\\AppData\\Roaming\\NuGet\\NuGet.Config",
