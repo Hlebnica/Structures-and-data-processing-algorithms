@@ -18,11 +18,11 @@ namespace singly_linked_list
             public int AccountCode { get;  } // Код счета
             public string Surname { get;  } // Фамилия владельца
             public decimal AccountAmount { get;  } // Сумма на счете
-            public string OpenDateTime { get;  } // Дата открытия счета
+            public DateTime OpenDateTime { get;  } // Дата открытия счета
             public decimal AccrualPercentage { get;  } // Годовой процент начисления
             
             public Account(int accountNumber, int accountCode, string surname, 
-                decimal accountAmount, string openDateTime, decimal accrualPercentage)
+                decimal accountAmount, DateTime openDateTime, decimal accrualPercentage)
             {
                 AccountNumber = accountNumber;
                 AccountCode = accountCode;
@@ -33,6 +33,18 @@ namespace singly_linked_list
             }
             
             public override string ToString() => $"({AccountNumber}, {AccountCode}, {Surname}, {AccountAmount}, {OpenDateTime}, {AccrualPercentage})";
+        }
+
+        class DateOpen
+        {
+            public int Year { get; set; }
+            public int Month { get; set; }
+            public int Days { get; set; }
+            
+            public DateTime DateOfOpen(int year, int month, int days)
+            {
+                DateTime date1 = new DateTime(year, month, days); // год - месяц - день
+            }
         }
 
         class AccountNumberSort : IComparer<Account>
@@ -171,13 +183,20 @@ namespace singly_linked_list
         static void Main(string[] args)
         {
             LinkedList<Account> linkedList = new LinkedList<Account>();
-
-            Account person1 = new Account(1, 123, "Петров", 10000, "23.05.2000", 10);
-            Account person2 = new Account(2, 321, "Иванов", 15000, "23.05.2000", 12);
-            Account person3 = new Account(3, 456, "Афанасьев", 30000, "23.05.2000", 18);
-            Account person4 = new Account(4, 654, "Жуков", 80500, "23.05.2000", 25);
-            Account person5 = new Account(5, 789, "Цист", 22000, "23.05.2000", 14);
-            Account person6 = new Account(6, 987, "Соловьев", 18555, "23.05.2000", 13);
+            
+            DateTime[] dates = { new DateTime(2014, 6, 14, 6, 32, 0),
+                new DateTime(2015, 7, 10, 23, 49, 0),
+                new DateTime(2016, 1, 10, 1, 16, 0),
+                new DateTime(2016, 12, 20, 21, 45, 0),
+                new DateTime(2018, 6, 2, 15, 14, 0) };
+            
+            
+            Account person1 = new Account(1, 123, "Петров", 10000, dates[0], 10);
+            Account person2 = new Account(2, 321, "Иванов", 15000, dates[1], 12);
+            Account person3 = new Account(3, 456, "Афанасьев", 30000, dates[2], 18);
+            Account person4 = new Account(4, 654, "Жуков", 80500, dates[3], 25);
+            Account person5 = new Account(5, 789, "Цист", 22000, dates[4], 14);
+            Account person6 = new Account(6, 987, "Соловьев", 18555, dates[5], 13);
             
             linkedList.Add(person4);
             linkedList.Add(person5);
