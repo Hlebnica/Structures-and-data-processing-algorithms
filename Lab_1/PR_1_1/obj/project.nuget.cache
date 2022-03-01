@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Ub8lad84vOT7eHXIj2SHR7R0V3s5cwjYgia8yG7MHCuR0eceug4M+ksXQ/1/Kzc8da4AGcX6zXeSsLFG1+e0fQ==",
+  "dgSpecHash": "u2pyfSVnj9i3nnkkfQVH/pzlAQnqYH9O7WXdCmhBp0G5xcX7NFAXoi/lpA6L4c6k/LviJ2wku4sRYCk8fXO0ZA==",
   "success": true,
-  "projectFilePath": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_1\\PR_1_1\\PR_1_1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Dmitriy\\Desktop\\Structures and data processing algorithms\\GitHub\\Structures-and-data-processing-algorithms\\Lab_1\\PR_1_1\\PR_1_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dmitriy\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dmitriy\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dmitriy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dmitriy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
