@@ -1,0 +1,16 @@
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\bin\Debug\net5.0\PR_3_Sets.exe
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\bin\Debug\net5.0\PR_3_Sets.deps.json
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\bin\Debug\net5.0\PR_3_Sets.runtimeconfig.json
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\bin\Debug\net5.0\PR_3_Sets.runtimeconfig.dev.json
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\bin\Debug\net5.0\PR_3_Sets.dll
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\bin\Debug\net5.0\ref\PR_3_Sets.dll
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\bin\Debug\net5.0\PR_3_Sets.pdb
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\obj\Debug\net5.0\PR_3_Sets.csproj.AssemblyReference.cache
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\obj\Debug\net5.0\PR_3_Sets.GeneratedMSBuildEditorConfig.editorconfig
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\obj\Debug\net5.0\PR_3_Sets.AssemblyInfoInputs.cache
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\obj\Debug\net5.0\PR_3_Sets.AssemblyInfo.cs
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\obj\Debug\net5.0\PR_3_Sets.csproj.CoreCompileInputs.cache
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\obj\Debug\net5.0\PR_3_Sets.dll
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\obj\Debug\net5.0\ref\PR_3_Sets.dll
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\obj\Debug\net5.0\PR_3_Sets.pdb
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_3\PR_3_Sets\obj\Debug\net5.0\PR_3_Sets.genruntimeconfig.cache
