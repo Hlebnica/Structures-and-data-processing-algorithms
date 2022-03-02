@@ -4,16 +4,7 @@
     <projectFile>PR_3_Sets.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04214fe4-cf21-493e-9e53-62c01bd9955c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PR_3_Sets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PR_3_Sets/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/PR_3_Sets.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/PR_3_Sets.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/PR_3_Sets.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/PR_3_Sets.dll" afterDir="false" />
-    </list>
+    <list default="true" id="04214fe4-cf21-493e-9e53-62c01bd9955c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646152004449</updated>
       <workItem from="1646152011721" duration="1638000" />
-      <workItem from="1646235581340" duration="3231000" />
+      <workItem from="1646235581340" duration="3430000" />
     </task>
     <servers />
   </component>
