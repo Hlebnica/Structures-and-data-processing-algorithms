@@ -12,13 +12,22 @@ namespace PR_3_Sets
 {
     class Program
     {
-        private static HashSet<char> _vowels = new HashSet<char>("аеиоуыэюя");
-        private static HashSet<char> _consonants = new HashSet<char>("бвгджзйклмнпрстфхцчшщ");
+        private static readonly HashSet<char> Vowels = new("aeiouy"); // Множество гласных букв
+        private static readonly HashSet<char> Consonants = new("bcdfghjklmnpqrstvwxz"); // Множество согласных букв
         static void Main(string[] args)
         {
-            string s = "поэты и сами ещё ни разу не договорились о том, что такое поэзия.";
-            int d = s.Aggregate(0, (y, x) => y + (_vowels.Contains(x) ? 1 : _consonants.Contains(x) ? -1 : 0));
-            Console.WriteLine(d < 0 ? "согласных больше" : d == 0 ? "одинаково" : "гласных больше");
+            Console.WriteLine("Введите слово");
+            string text = Console.ReadLine()?.ToLower(); // Считывание строки и перевод в нижний регистр
+            
+            int vowelsCount = text.Count(x => Vowels.Contains(x)); // Подсчет гласных букв
+            int consonantsCount = text.Count(x => Consonants.Contains(x)); // Подсчет согласных букв
+
+            if (vowelsCount > consonantsCount)
+                Console.WriteLine("Гласных больше");
+            if (vowelsCount < consonantsCount)
+                Console.WriteLine("Согласных больше");
+            if (vowelsCount == consonantsCount)
+                Console.WriteLine("Количество гласных и согласных равны");
         }
     }
 }
