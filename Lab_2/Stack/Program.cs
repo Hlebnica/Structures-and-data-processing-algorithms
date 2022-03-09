@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 
 
-/*1.	Заполнить стек N случайными числами из интервала [–10; 20]. 
-Просмотреть содержимое стека. Найти сумму положительных чисел, хранящихся в стеке.*/
+/*  34.	Сформировать стек из N чисел. Найти среднее
+        арифметическое элементов стека и поместить его в начало стека*/
 
 namespace Stack
 {
@@ -12,27 +12,44 @@ namespace Stack
         static void Main(string[] args)
         {
             Console.WriteLine("Введите количество чисел:");
-            int n = Convert.ToInt32(Console.ReadLine());
-            Stack<int> numbers = new Stack<int>(); // Инициализация стека
-            Random rnd = new Random();
-            int sum = 0; // Сумма положительных членов стека
+            int n = Convert.ToInt32(Console.ReadLine()); // Считываем количество чисел в стеке
             
+            Stack<double> numbers = new Stack<double>(); // Инициализация стека
+            Stack<double> temp = new Stack<double>(); // Инициализация временного стека
+            Random rnd = new Random();
+            double sum = 0; // Сумма чисел в стеке
+
             for (int i = 0; i < n; i++) // Добавление случайных чисел в стек
             {
-                numbers.Push(rnd.Next(-10, 20));
+                numbers.Push(rnd.Next(-10, 10));
             }
             
             Console.WriteLine("Содержимое стека:");
             foreach (var number in numbers) // Вывод содержимого стека и подсчет суммы положительных элементов
             {
                 Console.WriteLine(number);
-                if (number > 0) // Если число в стеке больше нуля, то добавить его к сумме
-                {
-                    sum += number;
-                }
+                sum += number; // Считаем сумму чисел в стеке
+                temp.Push(number); // Добавляем числа из основого стека во временный
+            }
+
+            double nToDouble = Convert.ToDouble(n); 
+            double average = sum/nToDouble; // Среднее элементов стека
+            
+            numbers.Clear(); // Очищаем основной стек
+            numbers.Push(average); // Добавляем среднее число в основной стек
+            
+            Console.WriteLine($"Среднее арифметическое стека = {average}");
+
+            foreach (var number in temp) // Возврат чисел из временного стека в основной
+            {
+                numbers.Push(number); 
             }
             
-            Console.WriteLine($"Сумма положительных элементов стека = {sum}");
+            Console.WriteLine("Содержимое стека с добавленным средним:");
+            foreach (var number in numbers) // Вывод содержимого стека
+            {
+                Console.WriteLine(number);
+            }
         }
     }
 }

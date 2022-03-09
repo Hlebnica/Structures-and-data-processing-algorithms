@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dmitriy\\Desktop\\Structures and data processing algorithms\\GitHub\\Structures-and-data-processing-algorithms\\Lab_2\\singly linked list\\singly linked list.csproj": {}
+    "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_2\\singly linked list\\singly linked list.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dmitriy\\Desktop\\Structures and data processing algorithms\\GitHub\\Structures-and-data-processing-algorithms\\Lab_2\\singly linked list\\singly linked list.csproj": {
+    "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_2\\singly linked list\\singly linked list.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dmitriy\\Desktop\\Structures and data processing algorithms\\GitHub\\Structures-and-data-processing-algorithms\\Lab_2\\singly linked list\\singly linked list.csproj",
+        "projectUniqueName": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_2\\singly linked list\\singly linked list.csproj",
         "projectName": "singly linked list",
-        "projectPath": "C:\\Users\\Dmitriy\\Desktop\\Structures and data processing algorithms\\GitHub\\Structures-and-data-processing-algorithms\\Lab_2\\singly linked list\\singly linked list.csproj",
-        "packagesPath": "C:\\Users\\Dmitriy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dmitriy\\Desktop\\Structures and data processing algorithms\\GitHub\\Structures-and-data-processing-algorithms\\Lab_2\\singly linked list\\obj\\",
+        "projectPath": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_2\\singly linked list\\singly linked list.csproj",
+        "packagesPath": "C:\\Users\\apple\\.nuget\\packages\\",
+        "outputPath": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_2\\singly linked list\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dmitriy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\apple\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,30 +49,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.14, 5.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pKhi0ZTLRtI1+YgZINSlohSOSpzV7aeGVUrj/t37UGcW0eSQlWSBdLipKciLhjl1GTlEzP7LsROQOoMMbMaGrA==",
+  "dgSpecHash": "LMU+72INr45ge63AAsqtkpcop/5mesbiwCen9RNoxX/msNm4Pqvr2gkrAryOjYKLfdeKZbwBGMmQ6CSbqznoxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dmitriy\\Desktop\\Structures and data processing algorithms\\GitHub\\Structures-and-data-processing-algorithms\\Lab_2\\singly linked list\\singly linked list.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Dmitriy\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Dmitriy\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Dmitriy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Dmitriy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
-  ],
+  "projectFilePath": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_2\\singly linked list\\singly linked list.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
