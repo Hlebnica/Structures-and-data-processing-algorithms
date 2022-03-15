@@ -23,32 +23,39 @@ namespace Stack
             {
                 numbers.Push(rnd.Next(-10, 10));
             }
-            
+
+            var k = n;
             Console.WriteLine("Содержимое стека:");
-            foreach (var number in numbers) // Вывод содержимого стека и подсчет суммы положительных элементов
+            while (k > 0)
             {
-                Console.WriteLine(number);
-                sum += number; // Считаем сумму чисел в стеке
-                temp.Push(number); // Добавляем числа из основого стека во временный
+                var num = numbers.Pop(); 
+                Console.WriteLine(num);
+                sum += num;
+                temp.Push(num);
+                k--;
             }
 
             double nToDouble = Convert.ToDouble(n); 
             double average = sum/nToDouble; // Среднее элементов стека
             
-            numbers.Clear(); // Очищаем основной стек
             numbers.Push(average); // Добавляем среднее число в основной стек
             
             Console.WriteLine($"Среднее арифметическое стека = {average}");
 
-            foreach (var number in temp) // Возврат чисел из временного стека в основной
+            k = n;
+            while (k > 0)
             {
-                numbers.Push(number); 
+                var tempNumber = temp.Pop();
+                numbers.Push(tempNumber);
+                k--;
             }
-            
+
             Console.WriteLine("Содержимое стека с добавленным средним:");
-            foreach (var number in numbers) // Вывод содержимого стека
+            k = n;
+            while (k >= 0)
             {
-                Console.WriteLine(number);
+                Console.WriteLine(numbers.Pop()); 
+                k--;
             }
         }
     }
