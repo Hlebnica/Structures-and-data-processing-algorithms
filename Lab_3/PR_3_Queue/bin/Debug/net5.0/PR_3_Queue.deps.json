@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PR_3_Queue/1.0.0": {
+        "runtime": {
+          "PR_3_Queue.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PR_3_Queue/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
