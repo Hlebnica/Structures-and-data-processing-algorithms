@@ -5,12 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04214fe4-cf21-493e-9e53-62c01bd9955c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../~WRL0806.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/bin/Debug/net5.0/PR_3_Queue.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/bin/Debug/net5.0/PR_3_Queue.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/bin/Debug/net5.0/PR_3_Queue.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/bin/Debug/net5.0/PR_3_Queue.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/bin/Debug/net5.0/PR_3_Queue.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/bin/Debug/net5.0/PR_3_Queue.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/bin/Debug/net5.0/PR_3_Queue.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/bin/Debug/net5.0/PR_3_Queue.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/PR_3_Queue.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/Debug/net5.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/PR_3_Queue.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/PR_3_Queue.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/PR_3_Queue.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/PR_3_Queue.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/PR_3_Queue.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/PR_3_Queue.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PR_3_Queue/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../PR_3_Queue/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PR_3_Sets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PR_3_Sets/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/PR_3_Sets.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/PR_3_Sets.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/PR_3_Sets.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/PR_3_Sets.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/PR_3_Sets.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/PR_3_Sets.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +57,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="25n9UlsLEHXmGDgKzStowKddQc4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -67,12 +108,16 @@
       <workItem from="1646152011721" duration="1638000" />
       <workItem from="1646235581340" duration="3430000" />
       <workItem from="1648375668017" duration="533000" />
+      <workItem from="1648535999843" duration="2370000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -83,7 +128,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

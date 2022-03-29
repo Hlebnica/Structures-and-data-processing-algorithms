@@ -61,10 +61,6 @@ namespace PR_3_Queue
                 Console.WriteLine(num);
                 k--;
             }
-            
-
-
-
         }
     }
 }

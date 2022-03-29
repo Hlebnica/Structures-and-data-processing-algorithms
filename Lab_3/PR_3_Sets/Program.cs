@@ -3,10 +3,8 @@ using System.Linq;
 using System.Collections.Generic;
 
 /*
-Пусть дан текст, состоящий из 
-строчных латинских букв и цифр. Определить, 
-каких букв – гласных или согласных – больше в этом тексте.
-*/
+Пусть дан текст, состоящий из строчных латинских букв и цифр. 
+Определить, каких букв – гласных или согласных – больше в этом тексте. */
 
 namespace PR_3_Sets
 {
@@ -26,9 +24,9 @@ namespace PR_3_Sets
 
                 if (vowelsCount > consonantsCount)
                     Console.WriteLine("Гласных больше");
-                if (vowelsCount < consonantsCount)
+                else if (vowelsCount < consonantsCount)
                     Console.WriteLine("Согласных больше");
-                if (vowelsCount == consonantsCount)
+                else if (vowelsCount == consonantsCount)
                     Console.WriteLine("Количество гласных и согласных равны");
             }
         }
