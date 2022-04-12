@@ -35,33 +35,34 @@ def insertion(array):  # Сортировка простыми включени�
     return array
 
 
-size_list = int(input("Введите размер списка: "))
+if __name__ == '__main__':
+    size_list = int(input("Введите размер списка: "))
 
-sort_list = []  # Сортированный в обратном порядке
-for i in range(size_list):
-    sort_list.append(i)
+    sort_list = []  # Сортированный в обратном порядке
+    for i in range(size_list):
+        sort_list.append(i)
 
-sort_list_half = []  # Сортированный на половину
-for i in sort_list[:(size_list // 2) - 1:-1]:
-    sort_list_half.append(i)
-for i in sort_list[:size_list // 2]:
-    sort_list_half.append(i)
+    sort_list_half = []  # Сортированный на половину
+    for i in sort_list[:(size_list // 2) - 1:-1]:
+        sort_list_half.append(i)
+    for i in sort_list[:size_list // 2]:
+        sort_list_half.append(i)
 
-sort_list_reversed = []  # Сортированный список
-for i in sort_list[::-1]:
-    sort_list_reversed.append(i)
+    sort_list_reversed = []  # Сортированный список
+    for i in sort_list[::-1]:
+        sort_list_reversed.append(i)
 
-print("Сортированный список ", sort_list_reversed)
-print("Сортированный в обратном порядке ", sort_list)
-print("Сортированный на половину", sort_list_half)
+    print("Сортированный список ", sort_list_reversed)
+    print("Сортированный в обратном порядке ", sort_list)
+    print("Сортированный на половину", sort_list_half)
 
-sorts_times = PrettyTable()
-sorts_times.field_names = ["Метод", "Сортированный", "Сортированный в обратном порядке", "Сортированный на половину"]
-sorts_times.add_row(["Пузырьковая", time_counter(bubble_sort, sort_list_reversed.copy()),
-                     time_counter(bubble_sort, sort_list.copy()),
-                     time_counter(bubble_sort, sort_list_half.copy())])
-sorts_times.add_row(["Простыми включениями", time_counter(insertion, sort_list_reversed.copy()),
-                     time_counter(insertion, sort_list.copy()),
-                     time_counter(insertion, sort_list_half.copy())])
+    sorts_times = PrettyTable()
+    sorts_times.field_names = ["Метод", "Сортированный", "Сортированный в обратном порядке", "Сортированный на половину"]
+    sorts_times.add_row(["Пузырьковая", time_counter(bubble_sort, sort_list_reversed.copy()),
+                         time_counter(bubble_sort, sort_list.copy()),
+                         time_counter(bubble_sort, sort_list_half.copy())])
+    sorts_times.add_row(["Простыми включениями", time_counter(insertion, sort_list_reversed.copy()),
+                         time_counter(insertion, sort_list.copy()),
+                         time_counter(insertion, sort_list_half.copy())])
 
-print(sorts_times)
+    print(sorts_times)
