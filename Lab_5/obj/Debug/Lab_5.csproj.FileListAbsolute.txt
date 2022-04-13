@@ -1,7 +1,0 @@
-C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_5\bin\Debug\Lab_5.exe
-C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_5\bin\Debug\Lab_5.pdb
-C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_5\obj\Debug\Lab_5.csproj.AssemblyReference.cache
-C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_5\obj\Debug\Lab_5.csproj.SuggestedBindingRedirects.cache
-C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_5\obj\Debug\Lab_5.csproj.CoreCompileInputs.cache
-C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_5\obj\Debug\Lab_5.exe
-C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_5\obj\Debug\Lab_5.pdb

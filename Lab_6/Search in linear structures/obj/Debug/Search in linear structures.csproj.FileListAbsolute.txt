@@ -1,0 +1,6 @@
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\Search in linear structures\bin\Debug\Search_in_linear_structures.exe
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\Search in linear structures\bin\Debug\Search_in_linear_structures.pdb
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\Search in linear structures\obj\Debug\Search in linear structures.csproj.AssemblyReference.cache
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\Search in linear structures\obj\Debug\Search in linear structures.csproj.CoreCompileInputs.cache
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\Search in linear structures\obj\Debug\Search_in_linear_structures.exe
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\Search in linear structures\obj\Debug\Search_in_linear_structures.pdb
