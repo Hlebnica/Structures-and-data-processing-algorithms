@@ -1,5 +1,13 @@
 ﻿using System;
 
+/*
+1. Поиск в линейных структурах (бинарный поиск)
+Написать программу, которая:
+ - запрашивает у пользователя размер массива и ключ поиска;
+ - формирует массив случайных чисел;
+ - возвращает количество совпадений и их номера.
+*/
+
 namespace Search_in_linear_structures
 {
     class Program
@@ -18,8 +26,8 @@ namespace Search_in_linear_structures
                 Console.Write(array[i] + " ");
             }
             
-            
             Array.Sort(array);
+            
             
         }
     }

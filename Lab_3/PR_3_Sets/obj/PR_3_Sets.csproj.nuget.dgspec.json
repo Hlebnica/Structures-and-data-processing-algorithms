@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dmitriy\\Desktop\\Structures and data processing algorithms\\GitHub\\Structures-and-data-processing-algorithms\\Lab_3\\PR_3_Sets\\PR_3_Sets.csproj": {}
+    "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_3\\PR_3_Sets\\PR_3_Sets.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dmitriy\\Desktop\\Structures and data processing algorithms\\GitHub\\Structures-and-data-processing-algorithms\\Lab_3\\PR_3_Sets\\PR_3_Sets.csproj": {
+    "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_3\\PR_3_Sets\\PR_3_Sets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dmitriy\\Desktop\\Structures and data processing algorithms\\GitHub\\Structures-and-data-processing-algorithms\\Lab_3\\PR_3_Sets\\PR_3_Sets.csproj",
+        "projectUniqueName": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_3\\PR_3_Sets\\PR_3_Sets.csproj",
         "projectName": "PR_3_Sets",
-        "projectPath": "C:\\Users\\Dmitriy\\Desktop\\Structures and data processing algorithms\\GitHub\\Structures-and-data-processing-algorithms\\Lab_3\\PR_3_Sets\\PR_3_Sets.csproj",
-        "packagesPath": "C:\\Users\\Dmitriy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dmitriy\\Desktop\\Structures and data processing algorithms\\GitHub\\Structures-and-data-processing-algorithms\\Lab_3\\PR_3_Sets\\obj\\",
+        "projectPath": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_3\\PR_3_Sets\\PR_3_Sets.csproj",
+        "packagesPath": "C:\\Users\\apple\\.nuget\\packages\\",
+        "outputPath": "F:\\Structures and data processing algorithms\\Structures-and-data-processing-algorithms\\Lab_3\\PR_3_Sets\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dmitriy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\apple\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,20 +51,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.14, 5.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
+              "version": "[5.0.15, 5.0.15]"
             }
           ],
           "frameworkReferences": {
@@ -76,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04214fe4-cf21-493e-9e53-62c01bd9955c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PR_3_Sets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PR_3_Sets/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/PR_3_Sets.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5_py/.idea/lab5_py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5_py/.idea/lab5_py.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5_py/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5_py/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5_py/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5_py/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/PR_3_Sets.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/PR_3_Sets.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/PR_3_Sets.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/PR_3_Sets.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/PR_3_Sets.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +76,7 @@
       <workItem from="1648375668017" duration="533000" />
       <workItem from="1648535999843" duration="2370000" />
       <workItem from="1649746694702" duration="1233000" />
+      <workItem from="1650200513875" duration="71000" />
     </task>
     <servers />
   </component>
@@ -93,6 +96,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
