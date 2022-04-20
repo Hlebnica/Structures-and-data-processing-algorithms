@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 /*
 1. Поиск в линейных структурах (бинарный поиск)
@@ -12,6 +13,64 @@ namespace Search_in_linear_structures
 {
     class Program
     {
+        private static int BinarySearch(int key, int[] arr) // Бинарный поиск 
+        {
+            int low = 0; // Нижняя граница массива 
+            int high = arr.Length - 1; // Верхняя граница массива
+
+            while (low <= high)
+            {
+                int midpoint = low + (high - low) / 2; // Середина массива
+                
+                if (key < arr[midpoint]) // Сдвиг верхней границы
+                {
+                    high = midpoint;
+                }
+                else if (key > arr[midpoint]) // Сдвиг нижней границы
+                {
+                    low = midpoint + 1;
+                }
+                else
+                {
+                    return midpoint;
+                }
+            }
+            return -1;
+        }
+
+        private static Dictionary<int, List<int>> OccurrenceCount(int key, int[] arr) // Поиск совпадений
+        {
+            int element = BinarySearch(key, arr);
+
+            if (element == -1)
+                Console.WriteLine("Элемент не был найден");
+
+            List<int> indexes = new List<int> {element};
+
+            int count = 1;
+            int left = element - 1;
+            while (left >= 0 && arr[left] == key)
+            {
+                indexes.Add(left);
+                count++;
+                left--;
+            }
+
+            int right = element + 1;
+            while (right < arr.Length && arr[right] == key)
+            {
+                indexes.Add(right);
+                count++;
+                right++;
+            }
+
+            Dictionary<int, List<int>> result = new Dictionary<int, List<int>>()
+            {
+                [count] = indexes
+            };
+
+            return result;
+        }
         
         public static void Main(string[] args)
         {
@@ -20,15 +79,32 @@ namespace Search_in_linear_structures
             int[] array = new int[arrSize];
             Random rnd = new Random();
             
-            for (int i = 0; i < arrSize; i++)
+            for (int i = 0; i < arrSize; i++) // Заполнение массива
             {
                 array[i] = rnd.Next(-10, 10);
-                Console.Write(array[i] + " ");
             }
             
-            Array.Sort(array);
+            Array.Sort(array); // Сортировка массива
+
+            Console.WriteLine("Отсортированный массив:");
+            foreach (var elements in array)
+            {
+                Console.Write(elements + " ");
+            }
             
+            Console.WriteLine("\nВведите ключ поиска ");  
+            int searchKey = Convert.ToInt32(Console.ReadLine());
             
+            var occurrences = OccurrenceCount(searchKey, array);
+            foreach (var keyValuePair in occurrences)
+            {
+                Console.WriteLine($"Количество совпадений элементов = {keyValuePair.Key} \nНомера элементов:");
+                foreach (var element in keyValuePair.Value)
+                {
+                    Console.Write($"{element} ");
+                }
+            }
+
         }
     }
 }
