@@ -1,0 +1,6 @@
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\TextSearch\bin\Debug\TextSearch.exe
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\TextSearch\bin\Debug\TextSearch.pdb
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\TextSearch\obj\Debug\TextSearch.csproj.AssemblyReference.cache
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\TextSearch\obj\Debug\TextSearch.csproj.CoreCompileInputs.cache
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\TextSearch\obj\Debug\TextSearch.exe
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\TextSearch\obj\Debug\TextSearch.pdb
