@@ -40,31 +40,31 @@ namespace Search_in_linear_structures
 
         private static Dictionary<int, List<int>> OccurrenceCount(int key, int[] arr) // Поиск совпадений
         {
-            int element = BinarySearch(key, arr);
+            int elements = BinarySearch(key, arr);
 
-            if (element == -1)
+            if (elements == -1)
                 Console.WriteLine("Элемент не был найден");
 
-            List<int> indexes = new List<int> {element};
+            List<int> indexes = new List<int> {elements};
 
             int count = 1;
-            int left = element - 1;
-            while (left >= 0 && arr[left] == key)
+            int left = elements - 1;
+            while (left >= 0 && arr[left] == key) // Поиск в нижней границе
             {
                 indexes.Add(left);
                 count++;
                 left--;
             }
 
-            int right = element + 1;
-            while (right < arr.Length && arr[right] == key)
+            int right = elements + 1;
+            while (right < arr.Length && arr[right] == key) // Поиск в верхней границе
             {
                 indexes.Add(right);
                 count++;
                 right++;
             }
 
-            Dictionary<int, List<int>> result = new Dictionary<int, List<int>>()
+            Dictionary<int, List<int>> result = new Dictionary<int, List<int>> // Добавление совпадений в словарь
             {
                 [count] = indexes
             };
@@ -99,9 +99,9 @@ namespace Search_in_linear_structures
             foreach (var keyValuePair in occurrences)
             {
                 Console.WriteLine($"Количество совпадений элементов = {keyValuePair.Key} \nНомера элементов:");
-                foreach (var element in keyValuePair.Value)
+                foreach (var elements in keyValuePair.Value)
                 {
-                    Console.Write($"{element} ");
+                    Console.Write($"{elements} ");
                 }
             }
 
