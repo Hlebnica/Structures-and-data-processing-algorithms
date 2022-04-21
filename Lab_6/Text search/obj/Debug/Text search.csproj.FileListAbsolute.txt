@@ -1,0 +1,7 @@
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_6\Text search\bin\Debug\Text_search.exe
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_6\Text search\bin\Debug\Text_search.pdb
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_6\Text search\obj\Debug\Text search.csproj.AssemblyReference.cache
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_6\Text search\obj\Debug\Text search.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_6\Text search\obj\Debug\Text search.csproj.CoreCompileInputs.cache
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_6\Text search\obj\Debug\Text_search.exe
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_6\Text search\obj\Debug\Text_search.pdb
