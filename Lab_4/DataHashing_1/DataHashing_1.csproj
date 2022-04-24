@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{88CADDD6-E611-4D62-AB5A-F27ED8DD7594}</ProjectGuid>
+        <ProjectGuid>{3F469B38-EB7C-42A6-96F1-54A5BB87DF58}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Test</RootNamespace>
-        <AssemblyName>Test</AssemblyName>
+        <RootNamespace>DataHashing_1</RootNamespace>
+        <AssemblyName>DataHashing_1</AssemblyName>
         <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>

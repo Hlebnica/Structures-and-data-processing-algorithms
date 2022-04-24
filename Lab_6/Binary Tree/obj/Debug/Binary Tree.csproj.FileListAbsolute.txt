@@ -1,0 +1,6 @@
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\Binary Tree\bin\Debug\Binary_Tree.exe
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\Binary Tree\bin\Debug\Binary_Tree.pdb
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\Binary Tree\obj\Debug\Binary Tree.csproj.AssemblyReference.cache
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\Binary Tree\obj\Debug\Binary Tree.csproj.CoreCompileInputs.cache
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\Binary Tree\obj\Debug\Binary_Tree.exe
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_6\Binary Tree\obj\Debug\Binary_Tree.pdb
