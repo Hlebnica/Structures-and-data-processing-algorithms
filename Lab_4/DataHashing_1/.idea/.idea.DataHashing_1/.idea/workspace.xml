@@ -5,43 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11e532d5-b15a-45fe-85b9-f41db83cfb8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DataHashing_1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/.idea/.idea.PR_4_DataHashing/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/.idea/.idea.PR_4_DataHashing/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/.idea/.idea.PR_4_DataHashing/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/.idea/.idea.PR_4_DataHashing/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/.idea/.idea.PR_4_DataHashing/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/PR_4_DataHashing.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/obj/Debug/net5.0/PR_4_DataHashing.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/obj/Debug/net5.0/PR_4_DataHashing.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/obj/Debug/net5.0/PR_4_DataHashing.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/obj/Debug/net5.0/PR_4_DataHashing.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/obj/Debug/net5.0/PR_4_DataHashing.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/obj/PR_4_DataHashing.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/obj/PR_4_DataHashing.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/obj/PR_4_DataHashing.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/PR_4_DataHashing/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/Test/.idea/.idea.Test/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/Test/.idea/.idea.Test/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/Test/.idea/.idea.Test/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/Test/.idea/.idea.Test/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/Test/.idea/.idea.Test/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/Test/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/Test/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/Test/Test.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/Test/Test.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/Test/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/Test/obj/Debug/Test.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PR_4_DataHashing/global.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_6/Binary Tree/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_6/Binary Tree/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/DataHashing_1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/DataHashing_1.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataHashing_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataHashing_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +32,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -96,6 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650815353310</updated>
       <workItem from="1650815357259" duration="40000" />
+      <workItem from="1650818272356" duration="2115000" />
     </task>
     <servers />
   </component>
@@ -112,6 +86,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
