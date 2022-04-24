@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 /*
 Составьте хеш-таблицу, содержащую буквы и количество 
@@ -16,14 +19,18 @@ namespace DataHashing_1
         {
             Hashtable letters = new Hashtable();
             
-            Console.WriteLine("Введите строку");
-            string str = Console.ReadLine();
-            
-            var chars = str?.ToCharArray();
-            foreach (var c in chars)
+            Console.Write("Введите слово: ");
+            string text = Console.ReadLine();
+            if (text != null)
             {
-                Console.Write(c + " ");
+                Dictionary<char, int> dictionary = text.GroupBy(x => x)
+                    .ToDictionary(x => x.Key, x => x.Count());
+                foreach (KeyValuePair<char, int> keyValuePair in dictionary)
+                {
+                    Console.WriteLine("{0} : {1}", keyValuePair.Key, keyValuePair.Value);
+                }
             }
+
             
         }
     }

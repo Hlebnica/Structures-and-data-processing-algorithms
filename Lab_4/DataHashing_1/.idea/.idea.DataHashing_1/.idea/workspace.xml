@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11e532d5-b15a-45fe-85b9-f41db83cfb8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/Debug/DataHashing_1.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/DataHashing_1.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataHashing_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataHashing_1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/DataHashing_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/DataHashing_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/DataHashing_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/DataHashing_1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DataHashing_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DataHashing_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +68,8 @@
       <updated>1650815353310</updated>
       <workItem from="1650815357259" duration="40000" />
       <workItem from="1650818272356" duration="2115000" />
+      <workItem from="1650823548891" duration="94000" />
+      <workItem from="1650826383674" duration="3331000" />
     </task>
     <servers />
   </component>
