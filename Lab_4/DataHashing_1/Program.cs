@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-
 /*
 Составьте хеш-таблицу, содержащую буквы и количество 
 их вхождений во введенной строке. Вывести таблицу на экран.
@@ -39,27 +38,14 @@ namespace DataHashing_1
                 Console.WriteLine($"{letter} : {letters[letter]}");
             }
             
-            Console.WriteLine("Введите действие, которое хотите сделать\n" +
-                              "1. Поиск по букве\n" +
-                              "2. Поиск по числу");
-
-            string action = Console.ReadLine();
-            switch (action)
+            Console.WriteLine("Введите букву для поиска");
+            char charForSearch = Convert.ToChar(Console.ReadLine() ?? string.Empty);
+            foreach (char letter in keys)
             {
-                case "1":
-                    Console.WriteLine("Введите букву для поиска");
-                    char valueForSearch = Convert.ToChar(Console.ReadLine() ?? string.Empty);
-                    foreach (char letter in keys)
-                    {
-                        if (letter == valueForSearch)
-                        {
-                            Console.WriteLine($"{letter} : {letters[letter]}");
-                        }
-                    }
-                    break;
-                case "2":
-                    
-                    break;
+                if (letter == charForSearch)
+                {
+                    Console.WriteLine($"Искомая буква {letter} : Их количество {letters[letter]}");
+                }
             }
         }
     }
