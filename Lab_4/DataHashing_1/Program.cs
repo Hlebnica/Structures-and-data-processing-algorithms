@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections;
-using System.IO;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+
 
 /*
 Составьте хеш-таблицу, содержащую буквы и количество 
@@ -19,19 +18,49 @@ namespace DataHashing_1
         {
             Hashtable letters = new Hashtable();
             
-            Console.Write("Введите слово: ");
+            Console.Write("Введите строку: ");
             string text = Console.ReadLine();
-            if (text != null)
+            if (text == null) return;
+            Dictionary<char, int> dictionary = text.GroupBy(x => x)
+                .ToDictionary(x => x.Key, x => x.Count()); // Группировка и подсчет уникальных символов с помщением в словарь
+            foreach (var keyValuePair in dictionary)
             {
-                Dictionary<char, int> dictionary = text.GroupBy(x => x)
-                    .ToDictionary(x => x.Key, x => x.Count());
-                foreach (KeyValuePair<char, int> keyValuePair in dictionary)
+                if (char.IsWhiteSpace(keyValuePair.Key) == false)
                 {
-                    Console.WriteLine("{0} : {1}", keyValuePair.Key, keyValuePair.Value);
+                    letters.Add(keyValuePair.Key, keyValuePair.Value); // Перемещение 
                 }
             }
 
+            ICollection keys = letters.Keys;
+
+            Console.WriteLine("Хеш-таблица: ");
+            foreach (var letter in keys)
+            {
+                Console.WriteLine($"{letter} : {letters[letter]}");
+            }
             
+            Console.WriteLine("Введите действие, которое хотите сделать\n" +
+                              "1. Поиск по букве\n" +
+                              "2. Поиск по числу");
+
+            string action = Console.ReadLine();
+            switch (action)
+            {
+                case "1":
+                    Console.WriteLine("Введите букву для поиска");
+                    char valueForSearch = Convert.ToChar(Console.ReadLine() ?? string.Empty);
+                    foreach (char letter in keys)
+                    {
+                        if (letter == valueForSearch)
+                        {
+                            Console.WriteLine($"{letter} : {letters[letter]}");
+                        }
+                    }
+                    break;
+                case "2":
+                    
+                    break;
+            }
         }
     }
 }
