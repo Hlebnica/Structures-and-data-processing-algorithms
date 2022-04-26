@@ -26,27 +26,11 @@ namespace DataHashing_1
             {
                 if (char.IsWhiteSpace(keyValuePair.Key) == false)
                 {
-                    letters.Add(keyValuePair.Key, keyValuePair.Value); // Перемещение 
+                    letters.Add(keyValuePair.Value, keyValuePair.Key); 
                 }
             }
 
-            ICollection keys = letters.Keys;
-
-            Console.WriteLine("Хеш-таблица: ");
-            foreach (var letter in keys)
-            {
-                Console.WriteLine($"{letter} : {letters[letter]}");
-            }
-            
-            Console.WriteLine("Введите букву для поиска");
-            char charForSearch = Convert.ToChar(Console.ReadLine() ?? string.Empty);
-            foreach (char letter in keys)
-            {
-                if (letter == charForSearch)
-                {
-                    Console.WriteLine($"Искомая буква {letter} : Их количество {letters[letter]}");
-                }
-            }
+           
         }
     }
 }

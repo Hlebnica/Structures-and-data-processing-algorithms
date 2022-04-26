@@ -4,7 +4,16 @@
     <projectFile>DataHashing_1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11e532d5-b15a-45fe-85b9-f41db83cfb8f" name="Changes" comment="" />
+    <list default="true" id="11e532d5-b15a-45fe-85b9-f41db83cfb8f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataHashing_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataHashing_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/DataHashing_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/DataHashing_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/DataHashing_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/DataHashing_1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DataHashing_1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DataHashing_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DataHashing_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_6/Отчет по ЛР № 6 Структуры и алгоритмы обработки данных.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_6/Отчет по ЛР № 6 Структуры и алгоритмы обработки данных.docx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc1d04d811fc4873ab7d8d9d4daddcc9568788/97/cef97259/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,6 +82,7 @@
       <workItem from="1650911996081" duration="2541000" />
       <workItem from="1650957664628" duration="202000" />
       <workItem from="1650959797735" duration="203000" />
+      <workItem from="1650985230059" duration="4165000" />
     </task>
     <servers />
   </component>
@@ -89,6 +102,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
