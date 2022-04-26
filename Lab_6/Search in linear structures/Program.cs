@@ -81,7 +81,7 @@ namespace Search_in_linear_structures
             
             for (int i = 0; i < arrSize; i++) // Заполнение массива
             {
-                array[i] = rnd.Next(-10, 10);
+                array[i] = rnd.Next(-100, 100);
             }
             
             Array.Sort(array); // Сортировка массива

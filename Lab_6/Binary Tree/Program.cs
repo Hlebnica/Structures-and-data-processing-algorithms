@@ -17,7 +17,7 @@ namespace Binary_Tree
               _parent = parent;
             }
             
-            public void Add(T val)
+            public void Add(T val) // Добавление
             {
                   if(val.CompareTo(_value) < 0){
                       if(_left==null){
@@ -35,7 +35,7 @@ namespace Binary_Tree
                   }
             }
 
-            private static BinaryTree<T> _Search(BinaryTree<T> tree, T val)
+            private static BinaryTree<T> _Search(BinaryTree<T> tree, T val) // Поиск
             {
                 while (true)
                 {
@@ -61,11 +61,12 @@ namespace Binary_Tree
         	        return _Search(this, val);
             }
             
-            public bool Remove(T val)
+            public void Remove(T val)
             {
                 BinaryTree<T> tree = Search(val); //Проверка, существует ли данный узел
-                if(tree == null){
-                    return false;
+                if(tree == null)
+                {
+                    return;
                 }
                 BinaryTree<T> curTree;
           
@@ -82,18 +83,20 @@ namespace Binary_Tree
                       T temp = curTree._value;
                       Remove(temp);
                       tree._value = temp;
-          
-                      return true;
+
+                      return;
                 }
           
                 //Удаление листьев
-                if(tree._left==null && tree._right==null && tree._parent != null){
+                if(tree._left==null && tree._right==null && tree._parent != null)
+                {
                     if(tree == tree._parent._left)
                         tree._parent._left = null;
                     else{
                         tree._parent._right = null;
                     }
-                    return true;
+
+                    return;
                 }
           
                 //Удаление узла, имеющего левое поддерево, но не имеющее правого поддерева
@@ -106,7 +109,8 @@ namespace Binary_Tree
                     else if(tree == tree._parent?._right){
                           tree._parent._right = tree._left;
                     }
-                    return true;
+
+                    return;
                 }
           
                 //Удаление узла, имеющего правое поддерево, но не имеющее левого поддерева
@@ -119,7 +123,8 @@ namespace Binary_Tree
                     else if(tree == tree._parent?._right){
                         tree._parent._right = tree._right;
                     }
-                    return true;
+
+                    return;
                 }
           
                 //Удаляем узел, имеющий поддеревья с обеих сторон
@@ -140,7 +145,8 @@ namespace Binary_Tree
                         } else if (tree == tree._parent?._right) {
                             tree._parent._right = curTree;
                         }
-                        return true;
+
+                        return;
                     }
                     
                     //Если самый левый элемент НЕ является первым потомком
@@ -158,10 +164,9 @@ namespace Binary_Tree
                     } else if (tree == tree._parent?._right) {
                         tree._parent._right = curTree;
                     }
-          
-                    return true;
+
+                    return;
                 }
-                return false;
             }
 
             private void _print(BinaryTree<T> node)
@@ -198,16 +203,6 @@ namespace Binary_Tree
         {
             BinaryTree<int> tree = new BinaryTree<int>(10, null);
             Console.WriteLine("Обход дерева до удаления ключа");
-            /*Random rnd = new Random();
-            for (int i = 0; i < 10; i++)
-            {
-                var digit = rnd.Next(15);
-                Console.Write(digit + " ");
-                tree.Add(digit);
-            }
-            Console.WriteLine("\n");
-            tree.Print();*/
-            
             
             tree.Add(2);
             tree.Add(3);

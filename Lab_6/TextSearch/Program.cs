@@ -60,7 +60,7 @@ namespace TextSearch
             Console.Write("Введите строку для поиска: ");
             string key = Console.ReadLine();
 
-            Console.WriteLine("Индекс найденного слова" + BmSearch(key, inputText));
+            Console.WriteLine("Индекс найденного слова " + BmSearch(key, inputText));
         }
     }
 }

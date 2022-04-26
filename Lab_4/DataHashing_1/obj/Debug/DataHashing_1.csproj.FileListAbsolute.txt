@@ -4,3 +4,10 @@ F:\Structures and data processing algorithms\Structures-and-data-processing-algo
 F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_4\DataHashing_1\obj\Debug\DataHashing_1.csproj.CoreCompileInputs.cache
 F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_4\DataHashing_1\obj\Debug\DataHashing_1.exe
 F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_4\DataHashing_1\obj\Debug\DataHashing_1.pdb
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_4\DataHashing_1\bin\Debug\DataHashing_1.exe
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_4\DataHashing_1\bin\Debug\DataHashing_1.pdb
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_4\DataHashing_1\obj\Debug\DataHashing_1.csproj.AssemblyReference.cache
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_4\DataHashing_1\obj\Debug\DataHashing_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_4\DataHashing_1\obj\Debug\DataHashing_1.csproj.CoreCompileInputs.cache
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_4\DataHashing_1\obj\Debug\DataHashing_1.exe
+C:\Users\Dmitriy\Desktop\Structures and data processing algorithms\GitHub\Structures-and-data-processing-algorithms\Lab_4\DataHashing_1\obj\Debug\DataHashing_1.pdb
