@@ -10,69 +10,169 @@ using System.Collections.Generic;
 
 namespace DataHashing_1
 {
-    internal class Program
+    class Program
     {
+        public class Item<T>
+        {
+            public int Key;
+            public T Value;
+
+
+            public Item(int key, T value)
+            {
+                Key = key;
+                Value = value;
+            }
+
+            public Item<T> Next { get; set; }
+        }
+
+        private class LinkedList<T> : IEnumerable<Item<T>>
+        {
+            Item<T> _head = null;
+            Item<T> _tail = null;
+            private int _count = 0;
+
+            public void Add(Item<T> item)
+            {
+                if (_head == null) _head = item;
+                else _tail.Next = item;
+
+                _tail = item;
+                _count++;
+            }
+
+            public bool Contain(T value)
+            {
+                Item<T> current = _head;
+
+                while (current != null)
+                {
+                    if (current.Value.Equals(value)) return true;
+                    current = current.Next;
+                }
+                return false;
+            }
+
+            public int Pop()
+            {
+                return _head.Key;
+            }
+
+            public bool IsEmpty()
+            {
+                if (_count == 0) return true;
+                return false;
+            }
+
+            public void Remove(T value)
+            {
+                Item<T> current = _head;
+                Item<T> previous = null;
+
+                while (current != null)
+                {
+                    if (current.Value.Equals(value))
+                    {
+                        T word = current.Value;
+                        if (previous != null)
+                        {
+                            previous.Next = current.Next;
+
+                            if (current.Next == null) _tail = previous;
+                        }
+                        else
+                        {
+                            _head = _head.Next;
+
+                            if (_head == null) _tail = null;
+                        }
+                        _count--;
+                        Console.WriteLine($"Удалено слово {word}"); 
+                    }
+
+                    previous = current;
+                    current = current.Next;
+                }
+            }
+
+            IEnumerator IEnumerable.GetEnumerator()
+            {
+                return ((IEnumerable)this).GetEnumerator();
+            }
+
+            IEnumerator<Item<T>> IEnumerable<Item<T>>.GetEnumerator()
+            {
+                Item<T> current = _head;
+                while (current != null)
+                {
+                    yield return current;
+                    current = current.Next;
+                }
+            }
+        }
+
         public class HashTableChar
         {
-            private Dictionary<int, LinkedList<char>> items;
+            private Dictionary<int, LinkedList<char>> _items;
 
             public HashTableChar(int n)
             {
-                items = new Dictionary<int, LinkedList<char>>(n);
+                _items = new Dictionary<int, LinkedList<char>>(n);
             }
 
             public bool ContainsChar(char value)
             {
-                foreach (var item in items)
+                foreach (var item in _items)
                 {
-                    if (item.Value.Contains(value)) return true;
+                    if (item.Value.Contain(value)) return true;
                 }
                 return false;
             }
 
             public void Insert(int key, char value)
             {
-                //var item = new Item<char>(key, value);
-                var item = new Item
-                var hash = HF(item.key);
+                var item = new Item<char>(key, value);
+                var hash = HashFunction(item.Key);
 
-                if (items.ContainsKey(hash))
+                if (_items.ContainsKey(hash))
                 {
-                    items[hash].Add(item);
+                    _items[hash].Add(item);
                 }
                 else
                 {
-                    LinkedList<char> hashTableItem = new() { item };
-                    items.Add(hash, hashTableItem);
+                    LinkedList<char> hashTableItem = new LinkedList<char> {item};
+                    _items.Add(hash, hashTableItem);
                 }
             }
 
             public void Search(int key)
             {
-                var hash = HF(key);
+                var hash = HashFunction(key);
 
-                foreach (var item in items[hash])
+                foreach (var item in _items[hash])
 
-                    Console.Write($"{item.value} ");
+                    Console.Write($"{item.Value} ");
             }
 
-            private int HF(int value)
+            private int HashFunction(int value)
             {
                 return value;
             }
 
             public void Output()
             {
-                foreach (var item in items)
+                foreach (var item in _items)
                 {
-                    if (!item.Value.IsEmpty()) Console.Write("\n[{0}]", item.Key);
+                    if (!item.Value.IsEmpty()) Console.Write($"\n[{item.Key}]");
                     foreach (var word in item.Value)
                     {
-                        Console.Write("==>|{0, 2} |", word.value);
+                        Console.Write($"-->|{word.Value}|");
                     }
                 }
             }
         }
+
         public static void Main(string[] args)
         {
             Console.Write("Введите строку: ");
@@ -98,7 +198,7 @@ namespace DataHashing_1
                 }
             }
 
-            HashTableChar table = new(max);
+            HashTableChar table = new HashTableChar(max);
 
             foreach (char ch in line)
             {
@@ -112,8 +212,8 @@ namespace DataHashing_1
 
             Console.Write("\n\nВведите количество: ");
             int number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Найденные буквы:");
             table.Search(number);
-            
         }
     }
 }

@@ -7,7 +7,11 @@
     <list default="true" id="11e532d5-b15a-45fe-85b9-f41db83cfb8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataHashing_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataHashing_1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/DataHashing_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/DataHashing_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/DataHashing_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/DataHashing_1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/DataHashing_1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DataHashing_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/DataHashing_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +30,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../Test/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Test/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Test/Item.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Test/LinkedList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Test/HashTableChar.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -88,6 +94,7 @@
       <workItem from="1650959797735" duration="203000" />
       <workItem from="1650985230059" duration="4165000" />
       <workItem from="1651128126894" duration="1440000" />
+      <workItem from="1651134150295" duration="2631000" />
     </task>
     <servers />
   </component>
