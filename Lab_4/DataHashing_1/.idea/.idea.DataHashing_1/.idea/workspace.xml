@@ -4,15 +4,7 @@
     <projectFile>DataHashing_1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11e532d5-b15a-45fe-85b9-f41db83cfb8f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DataHashing_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataHashing_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/DataHashing_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/DataHashing_1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/DataHashing_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/DataHashing_1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/DataHashing_1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/DataHashing_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/DataHashing_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DataHashing_1.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="11e532d5-b15a-45fe-85b9-f41db83cfb8f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +86,7 @@
       <workItem from="1650959797735" duration="203000" />
       <workItem from="1650985230059" duration="4165000" />
       <workItem from="1651128126894" duration="1440000" />
-      <workItem from="1651134150295" duration="2631000" />
+      <workItem from="1651134150295" duration="3212000" />
     </task>
     <servers />
   </component>
