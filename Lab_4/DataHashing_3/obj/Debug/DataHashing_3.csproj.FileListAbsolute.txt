@@ -1,0 +1,6 @@
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_4\DataHashing_3\bin\Debug\DataHashing_3.exe
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_4\DataHashing_3\bin\Debug\DataHashing_3.pdb
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_4\DataHashing_3\obj\Debug\DataHashing_3.csproj.AssemblyReference.cache
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_4\DataHashing_3\obj\Debug\DataHashing_3.csproj.CoreCompileInputs.cache
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_4\DataHashing_3\obj\Debug\DataHashing_3.exe
+F:\Structures and data processing algorithms\Structures-and-data-processing-algorithms\Lab_4\DataHashing_3\obj\Debug\DataHashing_3.pdb

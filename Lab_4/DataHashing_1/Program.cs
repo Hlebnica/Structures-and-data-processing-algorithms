@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 /*
 Составьте хеш-таблицу, содержащую буквы и количество 
@@ -112,7 +113,7 @@ namespace DataHashing_1
             }
         }
 
-        public class HashTableChar
+        private class HashTableChar
         {
             private Dictionary<int, LinkedList<char>> _items;
 
@@ -180,37 +181,31 @@ namespace DataHashing_1
             Hashtable table0 = new Hashtable();
 
             int max = 0;
-            foreach (char ch in line)
+            foreach (var letter in (line ?? string.Empty).Where(Char.IsLetter))
             {
-                if (Char.IsLetter(ch))
+                if (!table0.ContainsKey(letter))
                 {
-                    if (!table0.ContainsKey(ch))
-                    {
-                        table0.Add(ch, 1);
-                    }
-                    else
-                    {
-                        int count = (int)table0[ch];
-                        count++;
-                        table0[ch] = count;
-                        if (count > max) max = count;
-                    }
+                    table0.Add(letter, 1);
+                }
+                else
+                {
+                    int count = (int)table0[letter];
+                    count++;
+                    table0[letter] = count;
+                    if (count > max) max = count;
                 }
             }
 
             HashTableChar table = new HashTableChar(max);
 
-            foreach (char ch in line)
+            foreach (var ch in (line ?? string.Empty).Where(Char.IsLetter).Where(ch => !table.ContainsChar(ch)))
             {
-                if (Char.IsLetter(ch))
-                {
-                    if (!table.ContainsChar(ch)) table.Insert((int)table0[ch], ch);
-                }
+                table.Insert((int)table0[ch], ch);
             }
 
             table.Output();
 
-            Console.Write("\n\nВведите количество: ");
+            Console.Write("\nВведите количество: ");
             int number = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Найденные буквы:");
             table.Search(number);
