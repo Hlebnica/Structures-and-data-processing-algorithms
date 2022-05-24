@@ -5,39 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c558b986-f340-4d9b-a897-5c915940299b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/obj/Debug/DataHashing_1.csproj.SuggestedBindingRedirects.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Binary Tree/obj/Debug/Binary Tree.csproj.SuggestedBindingRedirects.cache" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../~$чет по ЛР № 6 Структуры и алгоритмы обработки данных.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Отчет по ЛР № 6 Структуры и алгоритмы обработки данных.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/.idea/.idea.DataHashing_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/.idea/.idea.DataHashing_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/bin/Debug/DataHashing_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/bin/Debug/DataHashing_1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/bin/Debug/DataHashing_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/bin/Debug/DataHashing_1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/obj/Debug/DataHashing_1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/obj/Debug/DataHashing_1.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/obj/Debug/DataHashing_1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/obj/Debug/DataHashing_1.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/obj/Debug/DataHashing_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/obj/Debug/DataHashing_1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/obj/Debug/DataHashing_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_4/DataHashing_1/obj/Debug/DataHashing_1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Binary Tree/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Binary Tree/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Binary Tree/bin/Debug/Binary_Tree.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Binary Tree/bin/Debug/Binary_Tree.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Binary Tree/bin/Debug/Binary_Tree.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Binary Tree/bin/Debug/Binary_Tree.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Binary Tree/obj/Debug/Binary Tree.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Binary Tree/obj/Debug/Binary Tree.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Binary Tree/obj/Debug/Binary Tree.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Binary Tree/obj/Debug/Binary Tree.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Binary Tree/obj/Debug/Binary_Tree.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Binary Tree/obj/Debug/Binary_Tree.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Binary Tree/obj/Debug/Binary_Tree.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Binary Tree/obj/Debug/Binary_Tree.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Search in linear structures/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Search in linear structures/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Search in linear structures/bin/Debug/Search_in_linear_structures.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Search in linear structures/bin/Debug/Search_in_linear_structures.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Search in linear structures/bin/Debug/Search_in_linear_structures.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Search in linear structures/bin/Debug/Search_in_linear_structures.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Search in linear structures/obj/Debug/Search in linear structures.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Search in linear structures/obj/Debug/Search in linear structures.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Search in linear structures/obj/Debug/Search_in_linear_structures.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Search in linear structures/obj/Debug/Search_in_linear_structures.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Search in linear structures/obj/Debug/Search_in_linear_structures.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Search in linear structures/obj/Debug/Search_in_linear_structures.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Text search/.idea/.idea.Text search/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Text search/.idea/.idea.Text search/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TextSearch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextSearch/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/TextSearch.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/TextSearch.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/TextSearch.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/TextSearch.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/TextSearch.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/TextSearch.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/TextSearch.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/TextSearch.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/TextSearch.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/TextSearch.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/TextSearch.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/TextSearch.pdb" afterDir="false" />
     </list>
@@ -101,6 +84,8 @@
       <workItem from="1650563992540" duration="3975000" />
       <workItem from="1650955623592" duration="134000" />
       <workItem from="1650958668732" duration="961000" />
+      <workItem from="1653374384541" duration="165000" />
+      <workItem from="1653376971191" duration="189000" />
     </task>
     <servers />
   </component>

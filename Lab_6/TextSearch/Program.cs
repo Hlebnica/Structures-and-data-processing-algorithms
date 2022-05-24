@@ -57,7 +57,7 @@ namespace TextSearch
             string inputText = GetTextFromFile("text.txt");
             Console.WriteLine("Текст в файле: " + inputText);
             
-            Console.Write("Введите строку для поиска: ");
+            Console.Write("Введите слово для поиска: ");
             string key = Console.ReadLine();
 
             Console.WriteLine("Индекс найденного слова " + BmSearch(key, inputText));

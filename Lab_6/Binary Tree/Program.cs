@@ -164,8 +164,6 @@ namespace Binary_Tree
                     } else if (tree == tree._parent?._right) {
                         tree._parent._right = curTree;
                     }
-
-                    return;
                 }
             }
 

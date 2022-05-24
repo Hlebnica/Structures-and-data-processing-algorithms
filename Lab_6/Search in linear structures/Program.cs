@@ -81,11 +81,18 @@ namespace Search_in_linear_structures
             
             for (int i = 0; i < arrSize; i++) // Заполнение массива
             {
-                array[i] = rnd.Next(-100, 100);
+                array[i] = rnd.Next(-10, 10);
+            }
+            
+            Console.WriteLine("Неотсортированный массив:");
+            foreach (var elements in array)
+            {
+                Console.Write(elements + " ");
             }
             
             Array.Sort(array); // Сортировка массива
-
+            
+            Console.WriteLine("---");
             Console.WriteLine("Отсортированный массив:");
             foreach (var elements in array)
             {
